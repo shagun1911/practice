@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/shagun', (req, res) => {
+app.get('/shagunji', (req, res) => {
   console.log('Shagun route accessed');
   res.send('Hello ji twitter!');
 });
